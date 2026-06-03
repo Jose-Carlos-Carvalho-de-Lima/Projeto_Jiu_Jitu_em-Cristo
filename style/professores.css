@@ -106,9 +106,10 @@ footer {
   color: #aaa;
   border-top: 1px solid #333;
 }
-footer > p{
-    margin-bottom: 10px;
-
+footer > p {
+  margin: 20px;
+  font-size: 20px;
+  text-align: center;
 }
 footer .social-icons a{
     color: white;

@@ -170,7 +170,8 @@ footer {
   border-top: 1px solid #333;
 }
 footer > p {
-  margin-bottom: 20px;
+  margin: 20px;
+  font-size: 20px;
 }
 footer .social-icons a{
     color: white;
