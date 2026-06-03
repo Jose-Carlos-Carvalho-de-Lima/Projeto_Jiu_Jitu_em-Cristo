@@ -411,8 +411,9 @@ footer  {
 footer a{
     color: white;
 }
-footer>p {
-    margin: 10px;
+footer > p {
+    margin: 20px;
+    
 }
 
 footer .social-icons i {

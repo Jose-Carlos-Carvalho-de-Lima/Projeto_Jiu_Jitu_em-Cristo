@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+}
+
+/* Menu lateral */
+nav {
+  width: 240px;
+  background-color: #000;
+  height: 100vh;
+  position: fixed;
+  padding: 20px;
+  box-shadow: 2px 0 10px rgba(255, 0, 0, 0.3);
+}
+nav h1 {
+  color: #ff0000;
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  margin: 20px 0;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+nav ul li a:hover {
+  color: #ff0000;
+}
+
+/* Conteúdo principal */
+main {
+  margin-left: 260px;
+  padding: 30px;
+  background-color: #1a1a1a;
+}
+h2 {
+  border-left: 5px solid #ff0000;
+  padding-left: 10px;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Mestre principal */
+.mestre-card {
+  text-align: center;
+  background: #222;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(255,0,0,0.3);
+  margin-bottom: 40px;
+}
+.mestre-card img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.mestre-card h1 {
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+.mestre-card p {
+  color: #ccc;
+  font-size: 15px;
+}
+
+/* Professores */
+.professores-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+.prof-card {
+  background: #222;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(255,0,0,0.3);
+}
+.prof-card img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.prof-card h3 {
+  color: #ff0000;
+  margin-bottom: 8px;
+}
+.prof-card p {
+  color: #ccc;
+  font-size: 14px;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #aaa;
+  border-top: 1px solid #333;
+}
+footer > p{
+    margin-bottom: 10px;
+
+}
+footer .social-icons a{
+    color: white;
+}
+footer .social-icons >p {
+    margin: 10px;
+}
+
+footer .social-icons i {
+    margin: 0 20px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+footer .social-icons i:hover {
+    color: green;
+}
